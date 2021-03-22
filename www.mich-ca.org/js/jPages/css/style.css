@@ -1,0 +1,84 @@
+
+/* =============================================================================
+   HTML5 element display
+   ========================================================================== */
+
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section { display: block; }
+audio[controls], canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+
+
+/* =============================================================================
+   Base
+   ========================================================================== */
+
+/*
+ * 1. Correct text resizing oddly in IE6/7 when body font-size is set using em units
+ *    http://clagnut.com/blog/348/#c790
+ * 2. Force vertical scrollbar in non-IE
+ * 3. Remove Android and iOS tap highlight color to prevent entire container being highlighted
+ *    www.yuiblog.com/blog/2010/10/01/quick-tip-customizing-the-mobile-safari-tap-highlight-color/
+ * 4. Prevent iOS text size adjust on device orientation change, without disabling user zoom
+ *    www.456bereastreet.com/archive/201012/controlling_text_size_in_safari_for_ios_without_disabling_user_zoom/
+ */
+
+html { font-size: 100%; overflow-y: scroll; -webkit-overflow-scrolling: touch; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+
+
+/* Filtrify link*/
+div#author {
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-style: italic;
+    font-size: 13px;
+    text-shadow: 0 1px white;
+}
+div#author a { font-weight: bold; margin: 0 3px; }
+
+/* Content */
+
+div#contentIPages { float: left;}
+div#contentIPages p { line-height:1.5; }
+div#contentIPages a {font-weight: bold; }
+div#contentIPages p + div { margin-top: 2px; }
+div#contentIPages h3 span {padding: 2px 3px; margin-left: 5px; font-weight: normal; }
+
+/* Content -> Code */
+
+div#contentIPages div.codeBlocks { margin: 20px 0 35px; }
+
+div#contentIPages pre { float: left; margin-right: 10px; cursor: pointer; }
+div#contentIPages pre:before { contentIPages: attr(class); padding: 2px 3px;}
+
+div#contentIPages pre.html { background: #F0F2EB; border-bottom: 1px solid #D7D9D3; }
+div#contentIPages pre.html:before { background: #D7D9D3; }
+
+div#contentIPages pre.javascript { background: #F4FAD2; border-bottom: 1px solid #DBE0BC; }
+div#contentIPages pre.javascript:before { background: #DBE0BC; }
+
+div#contentIPages pre.css { background: #E1EDB9; border-bottom: 1px solid #CAD5A6; }
+div#contentIPages pre.css:before { background: #CAD5A6; }
+
+div#contentIPages pre.collapse { position: relative; padding:2% 3%; width:94%; }
+div#contentIPages pre.collapse:before { position: absolute; right: 0; top: 0; }
+
+div#contentIPages pre code { display: none; background: none; font: 11px/16px "Courier New", Courier, monospace; }
+div#contentIPages pre.collapse code { display:block; }
+
+/* Content -> Unordered Lists */
+
+div#contentIPages ul#itemContainer { list-style: none; padding:0; margin: 4px 0;  }
+div#contentIPages ul#itemContainer li { display: inline-block; margin: 2px; zoom: 1; *display:inline; }
+div#contentIPages ul#itemContainer ll li img { vertical-align: top;}
+
+/* Content -> index */
+
+div#contentIPages.index pre { float:none; cursor:default; }
+div#contentIPages.index pre code { display:block; }
+div#contentIPages.index h2 { margin-top: 15px; }
+div#contentIPages.index dl dt,
+div#contentIPages.index dl dd { float: left; margin-top: 10px; }
+div#contentIPages.index dl dt { clear: left; width: 70px; font-style: italic; }
+div#contentIPages.index dl dd { width: 450px; }
+div#contentIPages.index i + p { margin-top: 5px; }
+
+

@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+www.mich-ca.org	TRUE	/	FALSE	1999999999	JSESSIONID	5E9FB82A51B07950F6FEC2779C5556ED
+

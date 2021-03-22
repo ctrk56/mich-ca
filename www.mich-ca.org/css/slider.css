@@ -1,0 +1,26 @@
+/*--------- slider ---------*/
+#slide {width:100%;  
+		overflow:hidden; 
+		z-index:777;
+		margin:0 auto;
+		position: relative;
+		background:#fff;
+		border-bottom:#fff 1px solid;
+		}
+
+.slider {
+		overflow:hidden; 
+		position:relative; 
+		margin:0 auto;
+		}
+		
+.items { display:none;}
+
+.pagination { position:absolute; bottom:84px; right:165px; display:inline-block; z-index:111;}
+.pagination li {float:left; margin-right:10px; position:relative;	}
+.pagination li a { display:inline-block; width:35px; height:36px; background:url(../images/pagination.html) right 0 no-repeat;}
+.pagination li.current a, .pagination li:hover a { background:url(../images/pagination.html) 0 0 no-repeat;}
+
+.banner {position:absolute; z-index:100; top:97px; left:723px; width:320px;}
+.banner .text-1 {display:block; margin-left:88px; margin-bottom:25px; background:#fff;}
+.banner .text-2 {background:#fff;}
