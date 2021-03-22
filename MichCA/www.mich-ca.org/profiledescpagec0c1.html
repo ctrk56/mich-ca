@@ -1,0 +1,905 @@
+
+
+
+
+
+
+
+
+
+
+<form id="pageForm" action="http://www.mich-ca.org/homepage.htm" method="post" enctype="multipart/form-data">
+		
+<html>
+
+<!-- Mirrored from www.mich-ca.org/profiledescpage.htm?id=207 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 02:45:54 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=ISO-8859-1" /><!-- /Added by HTTrack -->
+<head>
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<title>Mich-CA USA - Michigan Cricket Association</title>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/style_new.css" />
+	<link rel="stylesheet" type="text/css" href="css/grid_12.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/slider.css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:300italic' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" media="screen" href="js/Slicebox/css/custom.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="js/Slicebox/css/slicebox.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="js/basic-jquery-slider/bjqs.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="js/basic-jquery-slider/demo.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab' rel='stylesheet' type='text/css'>
+	
+	<link rel="stylesheet" type="text/css" media="screen" href="css/nav-michca-blue-yellow.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="css/nav-sub-michca.css">
+	<link rel="stylesheet" type="text/css" href="js/msdropdown/css/msdropdown/dd.css" />
+    <link rel="stylesheet" type="text/css" href="js/msdropdown/css/msdropdown/flags.css" />
+    <link rel="stylesheet" href="css/themes/base/jquery.ui.all.css">
+	
+	<link rel="stylesheet" href="js/jPages/css/style.css">
+	<link rel="stylesheet" href="js/jPages/css/jPages.css">
+	<link rel="stylesheet" href="js/jPages/css/animate.css">
+	<link rel="stylesheet" type="text/css" href="js/jqzoom_ev-2.3/css/jquery.jqzoom.css">  
+    <link rel="stylesheet" type="text/css" href="js/jqzoom_ev-2.3/css/jqzoom.css">
+	
+	<link type="text/css" rel="stylesheet" href="css/product_view/css/style.css">
+	<link rel="stylesheet" type="text/css" href="js/ad-gallery/jquery.ad-gallery.css">
+	<link rel="stylesheet" type="text/css" href="css/jcarousel/jcarousel.responsive.css">
+	
+	<script src="js/modernizr.js"></script>
+	
+	<script src="js/jquery-1.8.2.js"></script>
+    <script src="js/jquery-ui.js"></script>
+	<script src="js/cufon-yui.js"></script>
+    <script src="js/cufon-replace.js"></script>
+    <script src="js/Bilbo_400.font.js"></script>
+    <script src="js/tms-0.4.1.js"></script>
+    <script src="js/hoverIntent.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.media.js"></script>
+        
+    <script src="js/Slicebox/js/jquery.slicebox.js"></script>
+    <script src="js/Slicebox/js/modernizr.custom.46884.js"></script>
+    
+    <script src="js/basic-jquery-slider/js/bjqs-1.3.min.js"></script>
+    
+    
+    <script src="js/ui/jquery.ui.core.js"></script>
+	<script src="js/ui/jquery.ui.widget.js"></script>
+	<script src="js/ui/jquery.ui.datepicker.js"></script>
+	
+    <script src="js/msdropdown/js/msdropdown/jquery.dd.min.js"></script>
+    
+	<script src="js/jPages/js/jPages.js"></script>
+	<script src="js/jPages/js/jquery.lazyload.js"></script>
+
+	<script type="text/javascript" src="js/ad-gallery/jquery.ad-gallery.js"></script>
+	
+	<script type='text/javascript' src='js/jqzoom_ev-2.3/js/jquery.jqzoom-core.js'></script>  
+	
+	
+    <script type="text/javascript" src="js/jcarousel/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/jcarousel/jcarousel.responsive.js"></script>
+
+    <!-- Make sure following set of js files are at the end.
+    Otherwise, file upload functinality doesn't work -->
+    <script src="js/vendor/jquery.ui.widget.js"></script>
+	<script src="js/jquery.iframe-transport.js"></script>
+	<script src="js/jquery.fileupload.js"></script>
+	<script src="js/myuploadfunction.js"></script>
+    <script src="js/vccart.js"></script>
+    
+    <script type="text/javascript">
+
+    	$(document).ready(function () {	
+
+    		//$('.media').media();
+    		$('.media').media( {autoplay: false } );    
+    		
+	    	var nav = $("#topNav");
+			
+			//add indicator and hovers to submenu parents
+			nav.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					$("<span>").text("^").appendTo($(this).children(":first"));
+
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+					
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+
+			var topNav2 = $("#topNav2");
+			
+			//add indicator and hovers to submenu parents
+			topNav2.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					$("<span>").text("^").appendTo($(this).children(":first"));
+
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+					
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+
+			var subNavAdmin = $("#subNavAdmin");
+			
+			//add indicator and hovers to submenu parents
+			subNavAdmin.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					$("<span>").text("^").appendTo($(this).children(":first"));
+
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+					
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+
+			var subNav1 = $("#subNav1");
+			
+			//add indicator and hovers to submenu parents
+			subNav1.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					$("<span>").text("^").appendTo($(this).children(":first"));
+
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+					
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+
+			var subNav2 = $("#subNav2");
+			
+			//add indicator and hovers to submenu parents
+			subNav2.find("li").each(function() {
+				if ($(this).find("ul").length > 0) {
+					$("<span>").text("^").appendTo($(this).children(":first"));
+
+					//show subnav on hover
+					$(this).mouseenter(function() {
+						$(this).find("ul").stop(true, true).slideDown();
+					});
+					
+					//hide submenus on exit
+					$(this).mouseleave(function() {
+						$(this).find("ul").stop(true, true).slideUp();
+					});
+				}
+			});
+
+			var Page = (function() {
+				var $navArrows = $( '#nav-arrows' ).hide(),
+					$navOptions = $( '#nav-options' ).hide(),
+					$shadow = $( '#shadow' ).hide(),
+					slicebox = $( '#sb-slider' ).slicebox( {
+						onReady : function() {
+							$navArrows.show();
+							$navOptions.show();
+							$shadow.show();
+						},
+						orientation : 'h',
+						cuboidsCount : 3,
+						speed : 500,
+						autoplay : false,
+						fallbackFadeSpeed : 300
+					} ),
+					
+					init = function() {
+						initEvents();
+					},
+					initEvents = function() {
+						// add navigation events
+						$navArrows.children( ':first' ).on( 'click', function() {
+							slicebox.next();
+							return false;
+						} );
+						$navArrows.children( ':last' ).on( 'click', function() {
+							slicebox.previous();
+							return false;
+						} );
+						$( '#navPlay' ).on( 'click', function() {
+							slicebox.play();
+							return false;
+						} );
+						$( '#navPause' ).on( 'click', function() {
+							
+							slicebox.pause();
+							return false;
+						} );
+					};
+					return { init : init };
+			})();
+
+			Page.init();
+
+			$('#banner-fade').bjqs({
+	            height      : 430,
+	            width       : 600,
+	            responsive  : true
+	          });
+
+			$('#banner-fade-right').bjqs({
+	            height      : 460,
+	            width       : 360,
+	            responsive  : true
+	          });
+			$('#banner-fade-top').bjqs({
+	            height      : 400,
+	            width       : 960,
+	            responsive  : true
+	          });
+			$('#banner-fade-topleft').bjqs({
+	            height      : 400,
+	            width       : 530,
+	            responsive  : true
+	          });
+
+			//*************
+			//products page pagenation starts
+			//***************
+			
+
+		 $("ul li img").lazyload({
+		      event : "turnPage",
+		      effect : "fadeIn"
+		    });
+
+		    /* initiate plugin */
+		    $("div.holder").jPages({
+		      containerID : "itemContainer",
+		      perPage      : 30,
+		      startPage    : 1,
+		      startRange   : 1,
+		      midRange     : 5,
+		      endRange     : 1,
+		      animation   : "fadeInUp",
+		      callback    : function( pages, items ){
+		        /* lazy load current images */
+		        items.showing.find("img").trigger("turnPage");
+		        /* lazy load next page images */
+		        items.oncoming.find("img").trigger("turnPage");
+		      }
+		    });
+				
+
+		    $('#list').click(function(){    
+		        $('.prod-box').animate({opacity:0},function(){
+		            $('.grid').removeClass('grid-active');
+		            $('.list').addClass('list-active');
+		            $('.prod-box').attr('class', 'prod-box-list shadow');
+		            $('.prod-box-list').stop().animate({opacity:1});
+		        });
+		    });
+
+		    $('#grid').click(function(){  
+		        $('.prod-box-list').animate({opacity:0},function(){
+		            $('.list').removeClass('list-active');
+		            $('.grid').addClass('grid-active');
+		            $('.prod-box-list').attr('class', 'prod-box shadow');
+		            $('.prod-box').stop().animate({opacity:1});
+		        });
+		    });
+
+			//*************
+			//products page pagenation ends
+			//***************
+
+		    var galleries = $('.ad-gallery').adGallery({
+				width: 750,
+				height: 550
+			});
+
+		    $('.jqzoom').jqzoom({
+                zoomType: 'standard',
+                lens:true,
+                preloadImages: false,
+                alwaysOn:false
+            });
+
+		    $("#customerDateAdded").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#customerDateModified").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+
+		    $("#productDateAvailable").datepicker({ 
+				showOn: 'button',
+				changeYear: true, 
+				buttonImageOnly: true, 
+				buttonImage: 'images/icon_cal.png' });
+		    
+		    $("#profileDateDOB").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#prToPrTypeStartDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#prToPrTypeEndDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#profileDateAdded").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#profileDateModified").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+
+			$("#attributeAddDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#attributeModifiedDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });	
+			
+			$("#eventCalStartDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#calEvent_addEndDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			
+			$("#arCalAddStartDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#arCalAddEndDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#arCalEditStartDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+			$("#arCalEditEndDate").datepicker({ showOn: 'button', buttonImageOnly: true, buttonImage: 'images/icon_cal.png' });
+							          
+	    });
+
+    	$(document).ready(function(e) {		
+    		//no use
+    		try {
+    			var pages = $("#pages").msDropdown({on:{change:function(data, ui) {
+    													var val = data.value;
+    													if(val!="")
+    														window.location = val;
+    												}}}).data("dd");
+
+    			var pagename = document.location.pathname.toString();
+    			pagename = pagename.split("index.html");
+    			pages.setIndexByValue(pagename[pagename.length-1]);
+    			$("#ver").html(msBeautify.version.msDropdown);
+    		} catch(e) {
+    			//console.log(e);	
+    		}
+    		
+    		$("#ver").html(msBeautify.version.msDropdown);
+    			
+    		//convert
+    		$("select").msDropdown({roundedBorder:false});
+    		createByJson();
+    		$("#tech").data("dd");
+    	});
+    </script>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+    
+    	
+    <script type="text/javascript" src="js/vccart.js"></script>  
+    
+</head>
+<body>
+		
+  	<div id="wrapper">
+		<section id="content" com.vccart.bo.page.PageDescBO@445ddefa><div class="ic"></div>
+		
+<header style='height:100px; color:#000; background-color:#fff; background-size:100%;'>
+	<table width="100%">
+    <tr>
+     	<td>
+     		<span style='height:100px; color:#000; background-color:#fff; background-size:100%;'> 
+			
+			</span>
+    	</td>
+    </tr>
+    </table>	
+	<table width="100%">
+       	<tr>
+       	<td align=left>
+			<a href="displayPage78af.html">
+			<image class='alignleft' src='images/michca/uploaded/box_130x90/michca_logo_a_big-19042015-124501.jpg' width='130' height='90' />
+			</a>
+		</td>
+		<td align=center width="33%">
+			<span style='height:100px; color:#000; background-color:#fff; background-size:100%;'>
+				<span style='font-size:14px;font-family: Times New Roman, Georgia, Serif;color:#002c5a;'><h1>Michigan Cricket Association USA</h1></b></span>
+			</span>
+		</td>
+		<td align=right valign=top>
+			<table>
+			
+			<tr>
+				<td align=right valign=top>
+					<table align="right" >
+						
+						</tr>
+					</table>
+					</span>
+				</td>
+			</tr>
+			<tr>
+			<td align=right>
+			<table height="100%" width="100%" valign=bottom><tr>
+				<td align=left valign=bottom>
+					<table align="left"><tr>
+						<td>
+							<span style='height:100px; color:#000; background-color:#fff; background-size:100%;'>
+							
+							</span>	
+						</td>
+					</tr></table>
+				</td>
+				</tr><tr>
+				<td align="right" valign=bottom>
+					<span style='height:100px; color:#000; background-color:#fff; background-size:100%;'> 
+					<image class='alignleft' src='images/michca/uploaded/box_300x50/cropped-cropped-michca_logo_a_big-19042015-124949.jpg' width='300' height='50' />
+					</span>
+	          	</td>
+	          	</tr></table>
+	          	</td>
+			</tr>
+			</table>
+		</td>
+		</tr>
+	</table>
+	<table width="100%">
+    <tr>
+     	<td>
+     		<span style='height:100px; color:#000; background-color:#fff; background-size:100%;'> 
+			
+			</span>
+    	</td>
+    </tr>
+    </table>
+</header>
+<section>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+	
+	
+	
+	
+	<nav id='topNav'><ul><li><a href='displayPage4794.html?pgname=HOME,%20RIGHT_BAR2&amp;pg_right_bar=RIGHT_BAR2&amp;'><img src="images/michca/uploaded/box_18x14/home-icon-gold-02072015-103959.png" /></a></li><li><a href='displayPage4ea2.html?pgname=TOURNAMENTS&amp;pg_right_bar=RIGHT_BAR1&amp;'> Tournaments</a><ul><li><a href='displayArticle4479.html?id=303'> 2015 Tournaments</a><ul><li><a href='displayArticle0b30.html?id=2'> GLT 2015</a></li><li><a href='displayArticle7845.html?id=85'> T20 Plate 2015</a></li><li><a href='displayArticle9dbc.html?id=84'> T20 Trophy 2015</a></li><li><a href='displayArticledcfd.html?id=4'> T20 Shield 2015</a></li><li><a href='displayArticled708.html?id=3'> F40 2015</a></li><li><a href='displayArticlefe69.html?id=304'> 2015 USCCC and NCCC</a></li></ul></li><li><a href='displayArticleb61b.html?id=307'> 2016 Tournaments</a><ul><li><a href='displayArticle731a.html?id=309'> 2016 F40 Matches</a></li><li><a href='displayArticlefe9a.html?id=310'> 2016 T20 Shield</a></li><li><a href='displayArticlefe88.html?id=311'> 2016 T20 Trophy</a></li><li><a href='displayArticle9c3a.html?id=312'> 2016 T20 Plate</a></li><li><a href='displayArticlefc9a.html?id=308'> 2016 Mich-CA GLT (Great Lakes Trophy)</a></li><li><a href='displayArticle0bd8.html?id=306'> 2016 Winter Tournament</a></li></ul></li><li><a href='displayArticle5844.html?id=314'> 2017 Tournaments</a><ul><li><a href='displayArticle008c.html?id=328'> 2017 College Cricket</a></li><li><a href='displayArticlef3bf.html?id=327'> 2017 Contenders</a></li><li><a href='displayArticlefedf.html?id=325'> 2017 USCCC</a></li><li><a href='displayArticle5869.html?id=326'> 2017 Diversity Cup</a></li><li><a href='displayArticle70e1.html?id=322'> 2017 F40</a></li><li><a href='displayArticleae52.html?id=321'> 2017 T20 Shield</a></li><li><a href='displayArticlefcce.html?id=320'> 2017 T20 Trophy</a></li><li><a href='displayArticled0e0.html?id=319'> 2017 T20 Plate</a></li><li><a href='displayArticle9068.html?id=317'> 2017 GLT</a></li><li><a href='displayArticlef3b7.html?id=315'> 2017 Winter Tournament</a></li></ul></li><li><a href='displayArticle8776.html?id=329'> 2018 Tournaments</a><ul><li><a href='displayArticle8bdf.html?id=337'> 2018 USCCC</a></li><li><a href='displayArticle98a8.html?id=335'> 2018 T20 Plate</a></li><li><a href='displayArticle6b17.html?id=334'> 2018 T20 Trophy</a></li><li><a href='displayArticleca7f.html?id=333'> 2018 T20 Shield</a></li><li><a href='displayArticlebf8a.html?id=332'> 2018 F40</a></li><li><a href='displayArticle2aff.html?id=331'> 2018 GLT </a></li><li><a href='displayArticle961b.html?id=330'> 2018 Winter Tournament</a></li></ul></li></ul></li><li><a href='documentspaged41d.html?'><img src="images/michca/uploaded/box_16x13/icon-document-blue-02072015-105434.png" /> Docs</a></li><li><a href='displayPage08b2.html?pgname=Forms&amp;pg_right_bar=RIGHT_BAR1&amp;'> Forms</a></li><li><a href='displayPage9391.html?pgname=GROUNDS&amp;pg_right_bar=RIGHT_BAR1&amp;'> Grounds</a><ul><li><a href='displayArticledd61.html?id=316'> Oakland University Dome</a></li><li><a href='displayArticleda26.html?id=305'> Winter Cricket Dome</a></li><li><a href='displayArticle87f1.html?id=14'> Mich-CA Grounds</a><ul><li><a href='displayArticle784c.html?id=340'> Grand Rapids Ground</a></li><li><a href='displayArticle9329.html?id=339'> Lasky Recreation Center</a></li><li><a href='displayArticlef843.html?id=324'> CRC Park, New Haven</a></li><li><a href='displayArticle850a.html?id=57'> Mirage, Detroit</a></li><li><a href='displayArticle284c.html?id=341'> Mirage-2, Detroit</a></li><li><a href='displayArticle4ef9.html?id=12'> Trombly Park, Warren</a></li><li><a href='displayArticle6e03.html?id=13'> Murphy Park, Pontiac</a></li><li><a href='displayArticle0055.html?id=11'> Lyon Oaks County Park, Wixom</a></li><li><a href='displayArticlef41b.html?id=10'> Tag East, Hartland</a></li><li><a href='displayArticlec3c9.html?id=8'> Heritage Park, Canton</a></li><li><a href='displayArticle5255.html?id=9'> Belle Isle 1, Detroit</a></li><li><a href='displayArticle8803.html?id=7'> Bloomer Park, Rochester Hills</a></li><li><a href='displayArticleea91.html?id=313'> Beatty Park, Toledo, Ohio</a></li></ul></li></ul></li><li><a href='displayPage31d8.html?pgname=POINTS_TABLE,%20RIGHT_BAR2&amp;pg_right_bar=RIGHT_BAR2&amp;'> Points Table</a><ul><li><a href='displayArticle4133.html?id=151'> 2015 Points Table</a><ul><li><a href='displayArticle4893.html?id=153'> 2015 F40 Points Table</a></li><li><a href='displayArticle5c8d.html?id=149'> 2015 T20 Shield Points Table</a></li><li><a href='displayArticle71b0.html?id=148'> 2015 T20 Trophy Points Table</a></li><li><a href='displayArticle9537.html?id=150'> 2015 T20 Plate Points Table</a></li><li><a href='displayArticlee8f5.html?id=152'> 2015 GLT Points Table</a></li></ul></li></ul></li><li><a href='profilespaged41d.html?'><img src="images/michca/uploaded/box_15x15/person-yellow-02072015-104414.png" /> Profiles & Structure</a></li><li><a href='displayPaged41d.html?'> Other</a><ul><li><a href='displayPage5a38.html?pgname=CricHQ%20Help&amp;pg_right_bar=RIGHT_BAR1&amp;'> CricHQ Help</a></li><li><a href='contactpaged41d.html?'><img src="images/michca/uploaded/box_16x12/email-icon-yellow-02072015-105030.png" /> Contact</a></li><li><a href='imageGalleryd41d.html?'> Photos</a></li><li><a href='displayPage17e8.html?pgname=STATS_TOOLS,%20RIGHT_BAR_STATS_TOOLS&amp;pg_right_bar=RIGHT_BAR_STATS_TOOLS&amp;'> Stats Tools</a></li></ul></li></ul></nav>
+	
+	
+	<nav id='topNav2'></nav>
+</section>
+   		<div class="container_12">
+   			
+   			<div class="box">
+				
+			</div>
+   			<div class="box col1">
+   				
+					
+					
+					
+					<a href="images/michca/uploaded/default/person-yellow-02072015-104414.png" ><img src="images/michca/uploaded/product_desc/person-yellow-02072015-104414.png" /> </a>
+				
+   			
+   			</div>
+   			<div class="box col2">
+   				<table width="100%">
+					<tr>
+						<td valign="top" align="right">
+							<table width="100%">
+								<tr><td><heading>Subendu Sidhartha&nbsp;Mahapatra</heading></td></tr>
+								
+								
+								
+								
+							</table>
+						</td>
+					</tr>
+					
+					
+					
+					
+					
+					
+					<tr>
+						<td valign="top" align="right">
+							<table width="100%">
+								
+									<tr><td>&nbsp;</td></tr>
+																			
+										
+											
+											
+											<tr><td><heading>Latest Roles</heading></td></tr>
+											
+											
+											<tr><td><b>DSKC</b> 
+												( <i>03/2015 - Present )
+												
+												
+												
+												6 years 0 months 
+												</i></td></tr>
+												
+												
+																			
+										
+											
+											
+											
+											<tr><td><b>GTCC</b> 
+												( <i>03/2015 - Present )
+												
+												
+												
+												6 years 0 months 
+												</i></td></tr>
+												
+												
+									
+								
+							</table>
+						</td>
+					</tr>
+				</table>
+   			</div>
+			
+			<p>
+			<div class="box col2">
+			
+			
+			
+			
+			<table width="100%">
+				
+					<tr><td>&nbsp;</td></tr>
+															
+								
+															
+								
+					
+				
+			</table>
+   			</div>
+   			</p>
+   			
+		<div class="clear"></div>
+		</div>
+		</section>
+		 
+	<div id="page-bottom" style='height:140px; background-color:#002c5a;color:#ffcb0b'>
+		<div id="page-bottom-content">
+			
+		</div>
+	</div>
+
+		
+	<div id="footer">
+		<center>
+		<!-- <A href="javascript:new_window=window.open('commonDisplayPage.htm?pageNameDescPair=FOOTER~DESC2','height=500,width=700,resizable=yes,scrollbars=yes');"> -->
+		<A href="commonDisplayPage6dc3.html?pageNameDescPair=FOOTER~TERMS_AND_CONDITIONS&amp;isHeader=Y&amp;isFooter=Y">
+		<a href="displayPagee78f.html?pgname=TERMS_AND_CONDITIONS" >Mich-CA - Michigan Cricket Association © All Copyrights Reserved 2001</a> | Website Created by Vikram Chilukoti</A> | Powered by Hipmantra Solutions.
+		</center>
+	</div>
+	
+</body>
+
+<!-- Mirrored from www.mich-ca.org/profiledescpage.htm?id=207 by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 22 Mar 2021 02:45:54 GMT -->
+</html>
+
+</form>
